@@ -8,7 +8,7 @@ from agent.skills import SkillDef, SkillRegistry, load_skills
 
 
 def _skill(name: str = "shared-name") -> SkillDef:
-    return SkillDef(name, "Reusable workflow", "Do the workflow", Path("SKILL.md"))
+    return SkillDef(name, "hashky workflow", "Do the workflow", Path("SKILL.md"))
 
 
 def _command(name: str = "shared-name", aliases=()) -> CommandDef:
